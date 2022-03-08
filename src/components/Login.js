@@ -30,16 +30,12 @@ const Login = () => {
             setError('')
             setLoading(true)
             await socialMediaAuth(provider)
-            history.push('/firebase')
+            history.push('/React-Firebase-Auth')
         } catch (error) {
             setError(error.message)
         }
         setLoading(false)
-
-
     }
-
-
     return (
         <>
             <Card>
