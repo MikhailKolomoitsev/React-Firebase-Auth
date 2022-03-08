@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/firebase/static/js/main.7862bacb.chunk.js",
-    "main.js.map": "/firebase/static/js/main.7862bacb.chunk.js.map",
-    "runtime-main.js": "/firebase/static/js/runtime-main.018f33fc.js",
-    "runtime-main.js.map": "/firebase/static/js/runtime-main.018f33fc.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/firebase/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.92eaee61.chunk.js": "/firebase/static/js/2.92eaee61.chunk.js",
-    "static/js/2.92eaee61.chunk.js.map": "/firebase/static/js/2.92eaee61.chunk.js.map",
-    "index.html": "/firebase/index.html",
-    "precache-manifest.802a028e9eeff58a1fa0bd89a77abfc6.js": "/firebase/precache-manifest.802a028e9eeff58a1fa0bd89a77abfc6.js",
-    "service-worker.js": "/firebase/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/firebase/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/js/2.92eaee61.chunk.js.LICENSE.txt": "/firebase/static/js/2.92eaee61.chunk.js.LICENSE.txt"
+    "main.js": "/React-Firebase-Auth/static/js/main.c3c46112.chunk.js",
+    "main.js.map": "/React-Firebase-Auth/static/js/main.c3c46112.chunk.js.map",
+    "runtime-main.js": "/React-Firebase-Auth/static/js/runtime-main.3f5d8758.js",
+    "runtime-main.js.map": "/React-Firebase-Auth/static/js/runtime-main.3f5d8758.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/React-Firebase-Auth/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.b844e94f.chunk.js": "/React-Firebase-Auth/static/js/2.b844e94f.chunk.js",
+    "static/js/2.b844e94f.chunk.js.map": "/React-Firebase-Auth/static/js/2.b844e94f.chunk.js.map",
+    "index.html": "/React-Firebase-Auth/index.html",
+    "precache-manifest.46c0a36e449c551bbc8543c82814f360.js": "/React-Firebase-Auth/precache-manifest.46c0a36e449c551bbc8543c82814f360.js",
+    "service-worker.js": "/React-Firebase-Auth/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/React-Firebase-Auth/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/js/2.b844e94f.chunk.js.LICENSE.txt": "/React-Firebase-Auth/static/js/2.b844e94f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.018f33fc.js",
+    "static/js/runtime-main.3f5d8758.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.92eaee61.chunk.js",
-    "static/js/main.7862bacb.chunk.js"
+    "static/js/2.b844e94f.chunk.js",
+    "static/js/main.c3c46112.chunk.js"
   ]
 }
