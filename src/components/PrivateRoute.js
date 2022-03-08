@@ -4,12 +4,12 @@ import { Route } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-    const {currentUser}=useAuth()
+    const { currentUser } = useAuth()
     return (
         <Route
             {...rest}
             render={props => {
-                return currentUser ? <Component {...props} /> : <Redirect to='/React-Firebase-Auth/login'></Redirect>
+                return currentUser ? <Component {...props} /> : <Redirect to='/react-firebase-auth/login'></Redirect>
             }}
         ></Route>
     )

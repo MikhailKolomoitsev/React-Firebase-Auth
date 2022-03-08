@@ -18,7 +18,7 @@ const Login = () => {
             setError('')
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
-            history.push('/React-Firebase-Auth')
+            history.push('/react-firebase-auth')
         } catch (error) {
             setError(error.message)
         }
@@ -30,7 +30,7 @@ const Login = () => {
             setError('')
             setLoading(true)
             await socialMediaAuth(provider)
-            history.push('/React-Firebase-Auth')
+            history.push('/react-firebase-auth')
         } catch (error) {
             setError(error.message)
         }
@@ -55,10 +55,10 @@ const Login = () => {
 
                         <Button type='submit' className='w-100' disabled={loading}>Log In</Button>
                     </Form>
-                    <div className='w-100 text-center mt-2 mb-2'><Link to='/React-Firebase-Auth/forgot-password'>Forgot Password?</Link></div>
+                    <div className='w-100 text-center mt-2 mb-2'><Link to='/react-firebase-auth/forgot-password'>Forgot Password?</Link></div>
                     <Button
                         variant="light"
-                        onClick={()=>handleSocials(facebookProvider)}
+                        onClick={() => handleSocials(facebookProvider)}
                         type='submit' className='w-100 mb-3'
                         disabled={loading}>Log In with Facebook</Button>
                     <Button
@@ -69,7 +69,7 @@ const Login = () => {
                         disabled={loading}>Log In with Google</Button>
                 </Card.Body>
             </Card>
-            <div className='w-100 text-center mt-2'>Need an account? <Link to='/React-Firebase-Auth/signup'>Sign Up</Link></div>
+            <div className='w-100 text-center mt-2'>Need an account? <Link to='/react-firebase-auth/signup'>Sign Up</Link></div>
         </>
     )
 }

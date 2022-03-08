@@ -30,7 +30,7 @@ const UpdateProfile = () => {
             promises.push(updateEmail(passwordRef.current.value))
         }
         Promise.all(promises).then(() => {
-            history.push('/React-Firebase-Auth')
+            history.push('/react-firebase-auth')
         }).catch((e) => {
             setError(e.message)
         }).finally(() => {
@@ -65,7 +65,7 @@ const UpdateProfile = () => {
                     </Form>
                 </Card.Body>
             </Card>
-            <div className='w-100 text-center mt-2'><Link to='/React-Firebase-Auth/login'>Cancel</Link></div>
+            <div className='w-100 text-center mt-2'><Link to='/react-firebase-auth/login'>Cancel</Link></div>
         </>
     )
 }

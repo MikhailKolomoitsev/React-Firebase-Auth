@@ -17,11 +17,11 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-              <PrivateRoute exact path='/React-Firebase-Auth' component={Dashboard}/>
-              <PrivateRoute path='/React-Firebase-Auth/update-profile' component={UpdateProfile}/>
-              <Route path='/React-Firebase-Auth/signup' component={Signup}/>
-              <Route path='/React-Firebase-Auth/login' component={Login}/>
-              <Route path='/React-Firebase-Auth/forgot-password' component={ForgotPassword}/>
+              <PrivateRoute exact path='/react-firebase-auth' component={Dashboard} />
+              <PrivateRoute path='/react-firebase-auth/update-profile' component={UpdateProfile} />
+              <Route path='/react-firebase-auth/signup' component={Signup} />
+              <Route path='/react-firebase-auth/login' component={Login} />
+              <Route path='/react-firebase-auth/forgot-password' component={ForgotPassword} />
             </Switch>
           </AuthProvider>
         </Router>
